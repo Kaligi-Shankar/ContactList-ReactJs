@@ -39,7 +39,7 @@ const Contacts = ({ contactlist, deleteHandler, editHandler }) => {
                             <table class="table">
                                 <tbody>
                                     <tr>
-                                        <th scope="row">{index}</th>
+                                        <th scope="row">{index+1}</th>
                                         <td >{contact.name}</td>
                                         <td >{contact.email}</td>
                                         <button class="btn btn-outline-primary" onClick={()=>setEdit(index)}>Edit</button>
